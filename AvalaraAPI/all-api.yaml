@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: avalara-apis
+  description: A collection of all Avalara  API's
+spec:
+  targets:
+    - ./apis/avalara-restrictions-api.yaml

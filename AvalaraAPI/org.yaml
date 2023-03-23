@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: avalara
+  description: The Avalara organization
+  links:
+    - url: https://www.avalara.com//
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: Avalara
+    email: info@Avalara.com
+    picture: https://www.avalara.com/etc.clientlibs/avalara/clientlibs/avalara/resources/images/corporate_home_2_u15612.svg
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: groups
+  description: A collection of all Avalara Groups
+spec:
+  targets:
+    - ./team-devdot.yaml
+    - ./team-devx-champions.yaml
+    - ./team-wfaas.yaml
