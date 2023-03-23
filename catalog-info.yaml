@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: avalarahackathon
+  description: Avalara Hackathon
+  tags:
+    - java
+    - playback
+  annotations:
+    github.com/project-slug: wamanrajesh/AvalaraHackathon2023
+spec:
+  type: service
+  lifecycle: production
+  owner: team-devx-champions
